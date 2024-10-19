@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none; /* Menghapus border default */
+    height: 5px; /* Ketebalan garis */
+    background-color: #333; /* Warna garis */
+    margin: auto ;
+    width: 75%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Mengatur margin atas dan bawah, dan auto untuk kiri dan kanan */
+    max-width: 80%; /* Maksimal lebar tabel, agar tidak terlalu lebar di layar besar */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Mengatur kolom 'No' untuk lebar kecil */
+th:nth-child(1), td:nth-child(1) {
+    width: 33px; /* Atur lebar kolom 'No' sesuai kebutuhan */
+}
+
+/* Mengatur kolom 'Nama' untuk rata kiri */
+th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+}
+
+/* Mengatur kolom lainnya untuk rata tengah */
+th, td {
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    right: 65%;
+}

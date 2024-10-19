@@ -1,0 +1,58 @@
+/* Reset basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin:20px;
+}
+
+/* Container for multiple cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Membuat kartu bisa membungkus ke baris berikutnya jika layar sempit */
+    gap: 20px; /* Jarak antar kartu */
+    justify-content: center; /* Agar kartu berada di tengah secara horizontal */
+    margin-top: 50px; /* Tambahkan margin di atas untuk memberi ruang */
+}
+
+/* Style for the card */
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    height: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add hover effect for card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the icon */
+.icon {
+    font-size: 35px; /* Ukuran ikon lebih kecil */
+    color: #4CAF50;
+    margin-right: 15px; /* Jarak ikon dengan teks lebih kecil */
+}
+
+/* Style for the content */
+.content h1 {
+    font-size: 32px; /* Ukuran teks lebih kecil */
+    color: #333;
+    margin: 0;
+}
+
+.content p {
+    font-size: 14px; /* Ukuran deskripsi lebih kecil */
+    color: #666;
+    margin: 5px 0 0;
+}
