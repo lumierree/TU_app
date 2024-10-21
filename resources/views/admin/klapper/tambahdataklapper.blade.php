@@ -29,6 +29,11 @@
             </div>
             <div class="form-input">
                 <label for="kelas">kelas</label>
+                <!-- <select name="kelas" id="kelas">kelas
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                </select> -->
                 <input type="text" name="kelas" id="kelas">
             </div>
             <div class="form-input">
