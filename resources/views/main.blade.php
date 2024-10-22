@@ -69,6 +69,8 @@
           sidebar.style.display = 'none'
         }
       </script>
+
+      
 </body>
 @yield('content')
 </html>
